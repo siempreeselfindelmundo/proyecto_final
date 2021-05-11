@@ -1,0 +1,59 @@
+
+/*---------------------------------------H1 INDEX*/
+.contenedorTitulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/*--------------------------------------NAVBAR*/
+.bg-nav {
+	background-color: blue;
+}
+
+
+.navbar-nav {
+	margin-left: auto;
+}
+
+.nav-link {
+	color: #ffffe6 !important;
+} 
+
+
+/*--------------------------------------INICIO GRILLA FOTOS*/
+
+.gridFotos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 5px 5px;
+	grid-template-areas: 
+	"ramosNovia ramosNovia ramosNovia"
+	"centrosMesa centrosMesa centrosMesa"
+	"instalacion instalacion instalacion"
+}
+
+.gridFotos img {
+	height:auto;
+	width: 100%;
+	object-fit: cover;
+}
+/*--------------------------------------CONSEJOS 
+
+.encabezadoConsejos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+*/
+/*--------------------------------------FOOTER */
+.footer {
+	background-color: #b30000;
+}
+
+.footer span{
+	color: #ffffe6;
+}
