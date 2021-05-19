@@ -1,7 +1,9 @@
 $crudo: #ffffe6;
 $red: #b30000;
 
-
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
 
 /*---------------------------------------H1 INDEX*/
@@ -27,8 +29,10 @@ $red: #b30000;
 	color: $crudo !important;
 } 
 
+/*--------------------------------------FORMULARIO CONTACTO*/
 
-/*--------------------------------------INICIO GRILLA FOTOS*/
+
+/*--------------------------------------GRILLA FOTOS*/
 
 .gridFotos {
 	display: grid;

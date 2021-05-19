@@ -20,20 +20,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 5px 5px;
-  grid-template-areas: "ramosNovia ramosNovia ramosNovia" "centrosMesa centrosMesa centrosMesa" "instalacion instalacion instalacion" img;
+  grid-template-areas: "ramosNovia ramosNovia ramosNovia" "centrosMesa centrosMesa centrosMesa" "instalacion instalacion instalacion" 
+  img;
     grid-template-areas-height: auto;
     grid-template-areas-width: 100%;
     grid-template-areas-object-fit: cover; }
 
-/*--------------------------------------CONSEJOS 
 
-.encabezadoConsejos {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-*/
 /*--------------------------------------FOOTER */
 .footer {
   background-color: #b30000; }
