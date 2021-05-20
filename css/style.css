@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---------------------------------------H1 INDEX*/
 .contenedorTitulo {
   display: flex;
@@ -14,18 +15,26 @@
 .nav-link {
   color: #ffffe6 !important; }
 
-/*--------------------------------------INICIO GRILLA FOTOS*/
+/*--------------------------------------FORMULARIO CONTACTO*/
+/*--------------------------------------GRILLA FOTOS*/
 .gridFotos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 5px 5px;
-  grid-template-areas: "ramosNovia ramosNovia ramosNovia" "centrosMesa centrosMesa centrosMesa" "instalacion instalacion instalacion" 
-  img;
-    grid-template-areas-height: auto;
-    grid-template-areas-width: 100%;
-    grid-template-areas-object-fit: cover; }
+  /*grid-template-areas: 
+	"ramosNovia ramosNovia ramosNovia"
+	"centrosMesa centrosMesa centrosMesa"
+	"instalacion instalacion instalacion";*/ }
+  .gridFotos img {
+    height: auto;
+    width: 100%;
+    object-fit: cover; }
 
+/*--------------------------------------CONSEJOS */
+#consejosImg  {
+  width: 100%;
+  object-fit: cover; }
 
 /*--------------------------------------FOOTER */
 .footer {

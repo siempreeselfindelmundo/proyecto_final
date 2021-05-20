@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!-- NAVBAR CON BADGE EN "GALERIA", DROPDOWN MENU Y CUADROS DE DIALOGO.  -->
+    <!-----------------------------------------------NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-nav">
         <a class="navbar-brand" href="../index.html">
             <img src="../assets/images/logo_header.png" alt="logo">
@@ -52,25 +52,24 @@
             </ul>
         </div>
     </nav>
-    <!-----------------------------------------------CIERRE NAVBAR-->
+
     <!-----------------------------------------FORMULARIO CONTACTO-->
     <div class="container">
         <div class="row">
-            
-            <div class="col-lg-6 mb-md-0 mb-5 mr-5 d-flex flex-column justify-content-center">
+            <div class="col-lg-6 mb-md-0 my-5 mr-lg-3 d-flex flex-column justify-content-center">
                 <h1 class="animate__animated animate__slideInDown">Contacto</h1>
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                     <!--Grid row-->
                     <div class="row my-3">
                         <!--Grid column-->
-                        <div class="col-md-6 pr-1">
-                            <div class="md-form mb-0">
+                        <div class="col-md-6 pr-lg-1">
+                            <div class="md-form mb-3 mb-lg-0">
                                 <input type="text" id="name" name="name" class="form-control" placeholder="Tu nombre">
                             </div>
                         </div>
                         <!--Grid column-->
                         <!--Grid column-->
-                        <div class="col-md-6 pl-0">
+                        <div class="col-md-6 pl-lg-0">
                             <div class="md-form mb-0">
                                 <input type="text" id="email" name="email" class="form-control" placeholder="Tu email">
                             </div>
@@ -97,7 +96,7 @@
                         </div>
                     </div>
                     <!--Grid row-->
-                    <div class="custom-control custom-checkbox my-3">
+                    <div class="custom-control custom-checkbox my-3 d-flex justify-content-center">
                         <input type="checkbox" class="custom-control-input" id="customCheck1">
                         <label class="custom-control-label" for="customCheck1">Acepto <a href="#">términos de privacidad</a></label>
                     </div>
@@ -108,11 +107,11 @@
                         </div>
                     </div>
             </div>
-
-            <img src="../assets/images/contactoImage.jpg">
             </form>
+            <div>
+                <img class="d-flex w-100" src="../assets/images/contactoImage.jpg" alt="arreglo de flores rosa y amarillo sobre fondo azul"> </div>
+            </div>
         </div>
-    </div>
     </div>
     <!---------------------------------------------FOOTER-->
     <footer class="footer mt-auto py-3">
