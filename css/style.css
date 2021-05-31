@@ -17,19 +17,17 @@
 
 /*--------------------------------------FORMULARIO CONTACTO*/
 /*--------------------------------------GRILLA FOTOS*/
-.gridFotos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 5px 5px;
-  /*grid-template-areas: 
-	"ramosNovia ramosNovia ramosNovia"
-	"centrosMesa centrosMesa centrosMesa"
-	"instalacion instalacion instalacion";*/ }
-  .gridFotos img {
-    height: auto;
+.img-container  {
+  padding: 20px; }
+  .img-container  img {
+    /*display: block;*/
+    display: flex;
     width: 100%;
+    height: 100%;
     object-fit: cover; }
+  .img-container  .row {
+    margin: 15px;
+    justify-content: center; }
 
 /*--------------------------------------CONSEJOS */
 #consejosImg  {

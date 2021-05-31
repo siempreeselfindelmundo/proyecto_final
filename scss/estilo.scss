@@ -33,20 +33,20 @@ $red: #b30000;
 
 
 /*--------------------------------------GRILLA FOTOS*/
+.img-container {
+padding: 20px;
 
-.gridFotos {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 5px 5px;
-	/*grid-template-areas: 
-	"ramosNovia ramosNovia ramosNovia"
-	"centrosMesa centrosMesa centrosMesa"
-	"instalacion instalacion instalacion";*/
-img {
-	height: auto;
+	img{
+	/*display: block;*/
+	display: flex;
 	width: 100%;
-	object-fit: cover;}
+	height: 100%;
+	object-fit:cover;
+	}
+	.row {
+  margin: 15px;
+  justify-content: center;
+}
 }
 /*--------------------------------------CONSEJOS */
 
