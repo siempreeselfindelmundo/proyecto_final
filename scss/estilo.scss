@@ -1,5 +1,6 @@
 $crudo: #ffffe6;
 $red: #b30000;
+$darkblue: #0000b3;
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -19,7 +20,10 @@ $red: #b30000;
 .bg-nav {
 	background-color: blue;
 }
-
+.active {
+	background-color: $darkblue;
+	border-radius: 5px;
+}
 
 .navbar-nav {
 	margin-left: auto;
@@ -46,7 +50,10 @@ padding: 20px;
 	.row {
   margin: 15px;
   justify-content: center;
-}
+	}
+	h2 {
+		font-size: 10px !important;
+	}
 }
 /*--------------------------------------CONSEJOS */
 
